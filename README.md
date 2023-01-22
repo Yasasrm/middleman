@@ -41,11 +41,59 @@ npm install npm@latest -g
 # Example
 1] Status <br>
 <ul dir="auto">
-  <li>Methos: GET</li>
+  <li>Method: GET</li>
   <li>URI: http://localhost:8080/status</li>
   <li>Sample:</li>
 </ul>
-<p dir="auto"><a href="#" rel="nofollow"><img src="" alt="Status Postman Screen Shot" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/status.PNG" alt="Status Postman ScreenShot" style="max-width: 100%;"></a></p>
+
+2] Create <br>
+<ul dir="auto">
+  <li>Method: POST</li>
+  <li>URI: http://localhost:8080/db/create/{{Your_Colllection_Name}}</li>
+  <li>Sample:</li>
+</ul>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/create.PNG" alt="Create record Postman ScreenShot" style="max-width: 100%;"></a></p>
+
+3] Read All Records <br>
+<ul dir="auto">
+  <li>Method: GET</li>
+  <li>URI: http://localhost:8080/db/read/{{Your_Colllection_Name}}</li>
+  <li>Sample:</li>
+</ul>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/readAll.PNG" alt="Read all records Postman ScreenShot" style="max-width: 100%;"></a></p>
+
+4] Read Single Record <br>
+<ul dir="auto">
+  <li>Method: GET</li>
+  <li>URI: http://localhost:8080/db/read/{{Your_Colllection_Name}}/{{Your_Record_Id}}</li>
+  <li>Sample:</li>
+</ul>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/read.PNG" alt="Read single record Postman ScreenShot" style="max-width: 100%;"></a></p>
+
+5] Update Record <br>
+<ul dir="auto">
+  <li>Method: PUT</li>
+  <li>URI: http://localhost:8080/db/update/{{Your_Colllection_Name}}/{{Your_id}}</li>
+  <li>Sample:</li>
+</ul>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/update.PNG" alt="Update record Postman ScreenShot" style="max-width: 100%;"></a></p>
+
+6] Delete Record <br>
+<ul dir="auto">
+  <li>Method: DELETE</li>
+  <li>URI: http://localhost:8080/db/delete/{{Your_Colllection_Name}}/{{Your_Record_Id}}</li>
+  <li>Sample:</li>
+</ul>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/delete.PNG" alt="Delete record Postman ScreenShot" style="max-width: 100%;"></a></p>
+
+7] Delete Collection <br>
+<ul dir="auto">
+  <li>Method: DELETE</li>
+  <li>URI: http://localhost:8080/db/delete/{{Your_Colllection_Name}}</li>
+  <li>Sample:</li>
+</ul>
+<p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/deleteAll.PNG" alt="Delete collection Postman ScreenShot" style="max-width: 100%;"></a></p>
 
 # License
 🤷‍♂️
