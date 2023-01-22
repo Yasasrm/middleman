@@ -32,6 +32,8 @@ npm install npm@latest -g
 5] Now you can check API status from this link: http://localhost:8080/status <br>
 6] You can find postman collection from <a href="https://github.com/Yasasrm/middleman/blob/main/middleman-api.postman_collection.json" rel="nofollow">here</a> <br>
 
+$${\color{red}If \space\color{red}you \space\color{red}want \space\color{red}to \space\color{red}deploy \space\color{red}this \space\color{red}to \space\color{red}the \space\color{red}cloud \space\color{red}always \space\color{red}deploy \space\color{red}a \space\color{red}freshly \space\color{red}cloned \space\color{red}project.}$$
+
 # Usage
 
  <ul dir="auto">
