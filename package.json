@@ -1,0 +1,23 @@
+{
+  "name": "middleman",
+  "version": "1.0.0",
+  "description": "The API supports basic CRUD operations with locally created JSON files. Depending on your needs, you may host this locally on your computer or in the cloud (Vercel, Firebase, AWS, render, etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasasrm/middleman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yasasrm/middleman/issues"
+  },
+  "homepage": "https://github.com/Yasasrm/middleman#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
