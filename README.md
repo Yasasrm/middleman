@@ -34,7 +34,7 @@ npm install npm@latest -g
 
 <h3>Before Deploy</h3>
 1] Ensure that the <b>coldStart</b> flag in <a href="https://github.com/Yasasrm/middleman/blob/main/database/config/data-condition.json" rel="nofollow">data-condition.json</a> is always true.<br>
-2] Change <b>authEnabled</b> in <a href="https://github.com/Yasasrm/middleman/blob/main/database/auth/basic-auth.json" rel="nofollow">basic-auth.json</a> to true and put your authentication string in <b>authString</b> if you want basic authorization.
+2] Change <b>authEnabled</b> in <a href="https://github.com/Yasasrm/middleman/blob/main/database/auth/basic-auth.json" rel="nofollow">basic-auth.json</a> to true and put your authentication string in <b>authString</b> if you want basic authorization otherwise keep it as it is.
 
 # Usage
 
