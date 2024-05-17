@@ -99,9 +99,6 @@ npm install npm@latest -g
 </ul>
 <p dir="auto"><a href="#" rel="nofollow"><img src="https://github.com/Yasasrm/middleman/blob/main/screenshots/deleteAll.PNG" alt="Delete collection Postman ScreenShot" style="max-width: 100%;"></a></p>
 
-# License
-🤷‍♂️
-
 # Contact
 
 Yasas Maddunage - yasasrm@gmail.com
